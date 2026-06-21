@@ -1,0 +1,57 @@
+{
+  "version": "1.0",
+  "metadata": {
+    "title": "Full-Featured Example",
+    "description": "Demonstrates all available features in one recipe",
+    "author": "Your Name"
+  },
+  "inputs": [
+    {
+      "file": "path/to/intro.mp4",
+      "trim": { "start": 0, "end": 15 },
+      "label": "Introduction"
+    },
+    {
+      "file": "path/to/main.mp4",
+      "trim": { "start": 30, "duration": 60 },
+      "label": "Main Content"
+    },
+    {
+      "file": "path/to/closing.mp4",
+      "label": "Closing Remarks"
+    }
+  ],
+  "normalize": {
+    "enabled": true,
+    "resolution": "1920x1080",
+    "fps": 30
+  },
+  "transitions": {
+    "crossfade": 0.5,
+    "type": "crossfade"
+  },
+  "effects": {
+    "fade_in": 1.0,
+    "fade_out": 1.5
+  },
+  "overlays": [
+    {
+      "type": "title",
+      "text": "My Awesome Video",
+      "duration": 3.0,
+      "font_size": 72
+    },
+    {
+      "type": "watermark",
+      "text": "(c) Your Name 2026",
+      "position": "bottom-right",
+      "font_size": 24
+    }
+  ],
+  "output": {
+    "file": "output-full.mp4",
+    "format": "mp4",
+    "preset": "medium",
+    "crf": 23
+  }
+}

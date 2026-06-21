@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "metadata": {
+    "title": "Simple Concatenation",
+    "description": "Basic example: stitch 3 clips without effects"
+  },
+  "inputs": [
+    { "file": "path/to/clip1.mp4" },
+    { "file": "path/to/clip2.mp4" },
+    { "file": "path/to/clip3.mp4" }
+  ],
+  "output": {
+    "file": "output-simple.mp4",
+    "format": "mp4",
+    "preset": "medium",
+    "crf": 23
+  }
+}

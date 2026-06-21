@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Video output (except examples)
+*.mp4
+*.webm
+*.mkv
+*.mov
+*.avi
+
+# Temp files
+_temp/
+tmp/
+*.tmp
+
+# Keep example videos
+!examples/**/*.mp4
+!examples/**/*.webm
+!examples/**/*.mkv
